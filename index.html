@@ -16,7 +16,7 @@
         var container = document.querySelector('#jitsi-container');
         var api = null;
 
-        button.addEventListener('click', () => {
+ 
             var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
             var stringLength = 30;
 
@@ -31,7 +31,7 @@
                 "roomName": randomString,
                 "parentNode": container,
                 "width": 600,
-                "height": 600,
+                "height": 1200,
             };
             api = new JitsiMeetExternalAPI(domain, options);
         });
