@@ -4,9 +4,6 @@
     
 <body>
 
-    <button id="start" type="button">Start Meeting</button>
-    <div id="jitsi-container">
-    </div>
 
     <script>
         var button = document.querySelector('#start');
@@ -15,7 +12,7 @@
 
  
             var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-            var stringLength = 30;
+            var stringLength = 60;
 
             function pickRandom() {
                 return possible[Math.floor(Math.random() * possible.length)];
